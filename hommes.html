@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hommes - GOSneakers</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="categorie-nav">
+        <div class="container">
+            <div class="wrap">
+                <nav>
+                    <div class="navbar">
+                        <a href="accueil.html"><img src="images/Logo.png" class="logo"></a>
+                        <div class="nav-links">
+                            <ul>
+                                <li class="item1 links" data-item1="hot"><a href="nouveautes.html">NOUVEAUTÉS</a></li>
+                                <li class="links"><a href="femmes.html">FEMMES</a></li>
+                                <li class="links"><a href="hommes.html">HOMMES</a></li>
+                                <li class="links"><a href="les-marques.html">Marques</a></li>
+                                <li class="links"><a href="a-propos.html">A propos</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-buttons">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="button" id="Outline" viewBox="0 0 24 24" width="24" height="24"><path d="M23.707,22.293l-5.969-5.969a10.016,10.016,0,1,0-1.414,1.414l5.969,5.969a1,1,0,0,0,1.414-1.414ZM10,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,10,18Z"/></svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="button" id="Outline" viewBox="0 0 24 24" width="24" height="24"><path d="M22.713,4.077A2.993,2.993,0,0,0,20.41,3H4.242L4.2,2.649A3,3,0,0,0,1.222,0H1A1,1,0,0,0,1,2h.222a1,1,0,0,1,.993.883l1.376,11.7A5,5,0,0,0,8.557,19H19a1,1,0,0,0,0-2H8.557a3,3,0,0,1-2.82-2h11.92a5,5,0,0,0,4.921-4.113l.785-4.354A2.994,2.994,0,0,0,22.713,4.077ZM21.4,6.178l-.786,4.354A3,3,0,0,1,17.657,13H5.419L4.478,5H20.41A1,1,0,0,1,21.4,6.178Z"/><circle cx="7" cy="22" r="2"/><circle cx="17" cy="22" r="2"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="categorie">
+        <div class="categorie-container">
+            <div class="shop-container categorie-grid">
+                <div class="categorie-menu">
+                    <h3 class="titre-filtre"> TOUS LES FILTRES</h3>
+                    <div class="filtre-categorie">
+                        <h3 class="filtre">Trier par :</h3>
+                        <div class="element-categorie">
+                            <input type="radio" name="tri" id="nouveautes">
+                            <label for="nouveautes">Nouveautés</label>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="radio" name="tri" id="ventes">
+                            <label for="ventes">Meilleures ventes</label>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="radio" name="tri" id="croissant">
+                            <label for="croissant">Prix croissant</label>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="radio" name="tri" id="decroissant">
+                            <label for="decroissant">Prix décroissant</label>
+                        </div>
+                    </div>
+
+                    <div class="filter__content">
+                        <h3 class="filtre">Marques</h3>
+
+                        <div class="element-categorie">
+                            <input type="checkbox" name="" id="">
+                            <p>Nike</p> <span>(42)</span>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="checkbox" name="" id="">
+                            <p>Adidas</p> <span>(35)</span>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="checkbox" name="" id="">
+                            <p>Yeezy</p> <span>(28)</span>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="checkbox" name="" id="">
+                            <p>Puma</p> <span>(21)</span>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="checkbox" name="" id="">
+                            <p>Converse</p> <span>(14)</span>
+                        </div>
+                    </div>
+
+                    <div class="filter__content">
+                        <h3 class="filtre">Prix</h3>
+
+                        <div class="element-categorie">
+                            <input type="radio" name="prix" id="un">
+                            <label for="un">Entre 50 et 100€</label>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="radio" name="prix" id="deux">
+                            <label for="deux">Entre 100 et 150€</label>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="radio" name="prix" id="trois">
+                            <label for="trois">Entre 150 et 200€</label>
+                        </div>
+                        <div class="element-categorie">
+                            <input type="radio" name="prix" id="quatre">
+                            <label for="quatre">Plus de 200€</label>
+                        </div>
+                    </div>
+                    <div class="filter__content">
+                        <h3 class="filtre">Trier par note :</h3>
+                    </div>
+                    <div class="notes">
+                        <input type="radio" id="5etoiles" name="note">
+                        <label for="5etoiles">5 stars</label>
+                        <input type="radio" id="4etoiles" name="note">
+                        <label for="4etoiles">4 stars</label>
+                        <input type="radio" id="3etoiles" name="note">
+                        <label for="3etoiles">3 stars</label>
+                        <input type="radio" id="2etoiles" name="note">
+                        <label for="2etoiles">2 stars</label>
+                        <input type="radio" id="1etoile" name="note">
+                        <label for="1etoile">1 stars</label>
+                    </div>
+                </div>
+
+                <div class="shop__items categorie-grid">
+                    <div class="shop__content">
+                        <img src="images/cards/air-force-1/nike-air-force-1-1.png" alt="" class="shop__img">
+                        <h3 class="shop__title">Air Force 1 Shadow</h3>
+
+                        <div class="shop__prices">
+                            <span class="shop__price">$14.99</span>
+                        </div>
+                    </div>
+
+                    <div class="shop__content">
+                        <img src="images/cards/mid-diamond-shorts/mid-diamond-1.png" alt="" class="shop__img">
+                        <h3 class="shop__title">Air Jordan 1</h3>
+
+                        <div class="shop__prices">
+                            <span class="shop__price">$11.99</span>
+                        </div>
+                    </div>
+
+                    <div class="shop__content">
+                        <img src="images/cards/sacai/sacai-1.png" alt="" class="shop__img">
+                        <h3 class="shop__title">Sacai</h3>
+
+                        <div class="shop__prices">
+                            <span class="shop__price">$5.99</span>
+                        </div>
+                    </div>
+
+                    <div class="shop__content">
+                        <img src="images/cards/yeezy-boost/yeezy-boost-1.png" alt="" class="shop__img">
+                        <h3 class="shop__title">Yeezy Boost</h3>
+
+                        <div class="shop__prices">
+                            <span class="shop__price">$7.99</span>
+                        </div>
+                    </div>
+
+                    <div class="shop__content">
+                        <img src="images/cards/air-force-1/nike-air-force-1-1.png" alt="" class="shop__img">
+                        <h3 class="shop__title">Air Force 1 Shadow</h3>
+
+                        <div class="shop__prices">
+                            <span class="shop__price">$7.99</span>
+                        </div>
+                    </div>
+
+                    <div class="shop__content">
+                        <img src="images/cards/mid-diamond-shorts/mid-diamond-1.png" alt="" class="shop__img">
+                        <h3 class="shop__title">Air Jordan 1</h3>
+
+                        <div class="shop__prices">
+                            <span class="shop__price">$14.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content footer-grid">
+                <div class="col-one">
+                    <p class="description">
+                        Chez GoSneakers, on fait tout pour que vous soyez bien dans vos baskets. Comment ? En vous proposant les meilleurs sneakers du marché !
+                    </p>
+                    <ul class="list">
+                        <li class="element">
+                            <a href="" class="link sm">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link sm">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link sm">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="copyrights">2022 &copy; All Rights Reserved<br>Made with &#129505; by GoSneakers.</span>
+                </div>
+                <div>
+                    <h3 class="title-footer">TOP MARQUES</h3>
+                    <ul class="list">
+                        <li class="element">
+                            <a href="" class="link">Nike</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Adidas</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Yeezy</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Puma</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Converse</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="title-footer">SERVICES CLIENT</h3>
+                    <ul class="list">
+                        <li class="element">
+                            <a href="" class="link">FAQ</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Suivre ma commande</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Effectuer un retrour</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Programme de fidélité</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Informations de livraison</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="title-footer">INFORMATIONS LÉGALES</h3>
+                    <ul class="list">
+                        <li class="element">
+                            <a href="" class="link">CGV - Conditions Générales de Vente</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Confidentialité</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Mentions Légales</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Gestion des Cookies</a>
+                        </li>
+                        <li class="element">
+                            <a href="" class="link">Politique de Remboursement</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
